@@ -1,5 +1,5 @@
 # MouseTV project:
-![](testIR.gif)
+![Alt text](testIR.gif)/ ![](name-of-gif-file.gif)
 
 This project uses an inexpensive Raspberry Pi 4. Using a python script for triggers and the recording in an operant chamber
 
