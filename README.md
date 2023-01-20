@@ -1,4 +1,4 @@
-# MouseTv project:
+# MouseTV project:
 
 
 This project uses an inexpensive raspberry pi 4. Using a python script for triggers and the recording in an operant chamber
