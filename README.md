@@ -11,3 +11,4 @@ Here are some part that will be needed in order to make it work:
 -3d printed parts
 
 
+![exploded view](https://user-images.githubusercontent.com/89796977/213819623-3aa3f020-b2e6-44bd-b32e-eb8e390dc81a.jpg)
