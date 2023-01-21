@@ -5,7 +5,7 @@
 This is a work in progress will include a changelog as the project keeps on growing.
 
 Change log:
-
+tqdm added for progressbar
 
 This project uses an inexpensive Raspberry Pi 4. Using a python script for triggers and the recording in an operant chamber. This could be paired with DLC or SLEAP as a post process
 
