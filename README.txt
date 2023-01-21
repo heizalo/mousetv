@@ -6,7 +6,7 @@ Here are some part that will be needed in order to make it work:
 -Raspberry pi camera CSI connector
 -3d printed parts
 
-This code built was created keeping in mind that the Universities Internet security constricted us from uploading files from/to network. In order to adapt to the current restriction this script was developed.
+This code built was created keeping in mind that the Universities Internet security constricted us from uploading files from/to network. In order to adapt to the current restriction this script was developed. The main idea here, is to use opening the door as a trigger to either continue to record or skip to the next name on the video.txt file.
 
 First, power savings mode and the headless feature on a raspberry pi MUST be deactivate/activated 
 Second, make sure the right GPIO is selected (no PIN)
