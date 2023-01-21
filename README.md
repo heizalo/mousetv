@@ -2,6 +2,9 @@
 ![testIR](https://user-images.githubusercontent.com/89796977/213597478-f91575fc-635d-4f5d-a935-2c39b58a0d6b.GIF)
 
 
+This is a work in progress will include a changelog as the project keeps on growing.
+
+
 This project uses an inexpensive Raspberry Pi 4. Using a python script for triggers and the recording in an operant chamber
 
 Here are some part that will be needed in order to make it work:
