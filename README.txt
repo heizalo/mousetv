@@ -16,3 +16,8 @@ Fourth, make sure video.txt file has been updated with mouse name and time. Exam
 Currently, the main OS has been cloned and stored for easy access in case the current OS gets corrupted. 
 
 
+Change log:
+
+-Python script has been changed to continuosly recording due to issues when opening the door and closing.
+-New design has been completed 
+-Excel CSV files will be use to cut/snip videos as a post processing
