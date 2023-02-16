@@ -15,6 +15,10 @@ Here are some part that will be needed in order to make it work:
 -Raspberry pi camera CSI connector
 -3d printed parts
 
+Change log:
 
+-Python script has been changed to continuosly recording due to issues when opening the door and closing.
+-New design has been completed 
+-Excel CSV files will be use to cut/snip videos as a post processing
 
 ![exploded view](https://user-images.githubusercontent.com/89796977/213819772-2a9da793-c162-4670-8b96-57fcdda6b1e4.jpg)
