@@ -22,7 +22,9 @@ Here are some part that will be needed in order to make it work:
 Change log:
 
 -New scripts were generated for run and record 
+
 -schedule library has been added for scheduled recordings
+
 -Python script has been changed to continuosly recording due to 
 issues when opening the door and closing.
 
