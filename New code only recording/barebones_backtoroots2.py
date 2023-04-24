@@ -2,7 +2,9 @@ from picamera import PiCamera
 import time
 import schedule
 
-def start_recording():
+def start_recording(while_recording):
+    if while_recording == false:
+        return
     
     print("Starting to record...")
     storage_location = "/mnt/usb1/"
