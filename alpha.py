@@ -24,7 +24,7 @@ def start_recording(should_record):
 
     # Set camera resolution and framerate
     camera.resolution = (640, 480)
-    #camera.framerate = 20
+    camera.framerate = 20
 
     # Start recording
     camera.start_recording(filename)
