@@ -10,7 +10,7 @@ import datetime
 #if not recording then skip 
 
 def start_recording(should_record):
-    if should_record == false:
+    if should_record == False:
         return
 
     print("Starting to record...")
