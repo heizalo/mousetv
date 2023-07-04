@@ -15,9 +15,14 @@ Fourth, make sure video.txt file has been updated with mouse name and time. Exam
 
 Currently, the main OS has been cloned and stored for easy access in case the current OS gets corrupted. 
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Change log:
+MouseTV project:
 
--Python script has been changed to continuosly recording due to issues when opening the door and closing.
--New design has been completed 
--Excel CSV files will be use to cut/snip videos as a post processing
+This project was created to be able to record and keep track of mice running set schedules, males and females. 
+
+
+Let's start with the set up and things that you might need in order to have the Raspberry Pi set up:
+Version of  Raspberry Pi, we are using the(Legacy) OS normally known as Debian 10 (buster) (https://www.raspberrypi.com/software/operating-systems/)
+The easiest way to get it burned/flashed is using Raspberry Pi Imager ( https://www.raspberrypi.com/software/ ) Follow instructions 
+Upon hours of testing, it was noticed the power saving modes 
