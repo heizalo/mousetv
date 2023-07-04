@@ -25,4 +25,30 @@ This project was created to be able to record and keep track of mice running set
 Let's start with the set up and things that you might need in order to have the Raspberry Pi set up:
 Version of  Raspberry Pi, we are using the(Legacy) OS normally known as Debian 10 (buster) (https://www.raspberrypi.com/software/operating-systems/)
 The easiest way to get it burned/flashed is using Raspberry Pi Imager ( https://www.raspberrypi.com/software/ ) Follow instructions 
-Upon hours of testing, it was noticed the power saving modes 
+Upon hours of testing, it was noticed the power saving mode was putting the Pi to sleep. Power saving mode must be deactivated 
+
+on terminal:
+go to $sudo nano /etc/xdg/lsession/LXDE-pi/autostart
+add lines
+@xset s noblank
+@xset s off
+@xset dpms
+
+Go to $sudo nano /etc/lightdm/lightdm.conf
+Add below line in to SeatDefault (or Seat:* in newer LightDM versions) section.
+SeatDefaults]
+xserver-command=X -s 0 -dpms
+Restart your Raspberry Pi.
+
+Lastly, network disabling (power saving mode as well)
+Check ,
+sudo iw wlan0 get power_save
+if it is "on" then execute
+sudo iw wlan0 set power_save off
+
+
+Normally, there is not a need for a monitor to be connected at all times to the raspberry pi and for that it is necesary to have a "headless" pi, without it, it will not boot if not connected to a monitor. 
+Adding hdmi_force_hotplug=1 to /boot/config.txt seems to have solves the problem.
+
+There are few libraries that will need to be updated as time goes by, this part will be updated with time.
+
