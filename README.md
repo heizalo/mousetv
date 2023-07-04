@@ -34,4 +34,4 @@ issues when opening the door and closing.
 
 -tqdm has been removed
 
-![exploded view](https://user-images.githubusercontent.com/89796977/213819772-2a9da793-c162-4670-8b96-57fcdda6b1e4.jpg)
+
