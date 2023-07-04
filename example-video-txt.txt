@@ -1,3 +1,0 @@
-apple.h264 100
-banana.h264 120
-pear.h264 100
