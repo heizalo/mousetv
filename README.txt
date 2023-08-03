@@ -28,7 +28,7 @@ The easiest way to get it burned/flashed is using Raspberry Pi Imager ( https://
 Upon hours of testing, it was noticed the power saving mode was putting the Pi to sleep. Power saving mode must be deactivated 
 
   on terminal:
-  go to $sudo nano /etc/xdg/lsession/LXDE-pi/autostart
+  go to $sudo nano /etc/xdg/lxsession/LXDE-pi/autostart
   add lines
   @xset s noblank
   @xset s off
