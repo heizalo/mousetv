@@ -54,3 +54,10 @@ Our interface for running the script is using SSH although due to having new peo
 
 There are few libraries that will need to be updated as time goes by, this part will be updated with time.
 
+-----------------
+
+Some other updates:
+- We are currently looking to the addition for ABET to send signal to make our code more robust. (on the works)
+- Building a GUI for easy access for undergrads
+
+
